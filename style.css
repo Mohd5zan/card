@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#main{
+    height: fit-content;
+    width: 200px;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+#main img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+#main button{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
